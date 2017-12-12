@@ -1,0 +1,53 @@
+/* fuentes */
+@font-face {
+    font-family: "Signika-Light";
+    src: url("../fonts/Signika/Signika-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "raleway-regular";
+    src: url("../fonts/Raleway-Regular.ttf") format("truetype");
+}
+
+body{
+	/*background-image: url("../img/log.jpg");*/
+	background-color: #23517f;
+	font-family: 'raleway-regular';
+}
+
+#login{
+	margin-top: 100px;
+}
+
+.login-img{
+	width: 75px;
+	height: 75px;
+}
+
+
+a{
+	outline:0 !important;
+}
+
+.dropdown-menu {
+    min-width: 100% !important;
+    padding: 0.1rem 0;
+    margin: 0.299rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left !important;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+}
+
+.navbar {
+    padding: 0.3rem 1rem !important;
+}
+.login-img-nav{
+	width: 30px;
+    height: 30px;
+    margin: -5px 10px 0 0;
+}
